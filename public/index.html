@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/favicon.png" />
+    <script defer src="./js/chat.js"></script>
+    <title>Chat App</title>
+  </head>
+  <body class="index-body">
+    <div class="container">
+      <div class="header-container">
+        <h1 class="header-heading">Join</h1>
+      </div>
+
+      <div class="centered-form">
+        <div class="centered-form__box">
+          <form action="/chat.html">
+            <label for="">Display name</label>
+            <input
+              type="text"
+              name="username"
+              placeholder="Display name"
+              required
+            />
+            <label for="">Room</label>
+            <input type="text" name="room" placeholder="Room" required />
+            <button>Join</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p class="footer-text">Created by Archie</p>
+
+        <p class="footer-text">&copy; 2022 Archie</p>
+      </footer>
+    </div>
+  </body>
+</html>
